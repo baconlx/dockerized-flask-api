@@ -1,0 +1,8 @@
+ version: "3.7"
+
+ services:
+   app:
+     build: ./lx-api
+     container_name: lx-api
+     ports:
+      - 5000:5000
